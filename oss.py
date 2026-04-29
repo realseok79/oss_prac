@@ -1,4 +1,4 @@
-fir_num, cal, sec_num = input("cal: ").split()
+fir_num, cal, sec_num = input("cal:   ").split()
 a = int(fir_num)
 b = int(sec_num)
 if cal == "+":
