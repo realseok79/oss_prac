@@ -1,14 +1,26 @@
+def add(num1, num2):
+    print(num1 + num2)
+
+def sub(num1, num2):
+    print(num1 - num2)
+
+def mul(num1, num2):
+    print(num1 * num2)
+
+def div(num1, num2):
+    print(num1 / num2)
+
 fir_num, cal, sec_num = input("cal:   ").split()
 a = int(fir_num)
 b = int(sec_num)
 if cal == "+":
-    print(a+b)
+    add(a, b)
 elif cal == "-":
-    print(a - b)
+    sub(a, b)
 elif cal == "*":
-    print(a * b)
+    mul(a, b)
 else:
     if b == 0:
         print("Error: zero division")
     else:
-        print(a / b)
+        div(a, b)
